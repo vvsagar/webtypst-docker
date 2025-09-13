@@ -1,9 +1,4 @@
-
-# Dockerfile for [Weblatex](https://github.com/sanjib-sen/weblatex)
-
-## Docker Hub
-
-[https://hub.docker.com/r/sanjibsen/weblatex](https://hub.docker.com/r/sanjibsen/weblatex)
+# Dockerfile for [WebTypst](https://github.com/vvsagar/webtypst)
 
 ## Requirements
 
@@ -20,17 +15,15 @@ docker-compose up -d
 ### Or, Build
 
 ```bash
-docker build -t weblatex .
+docker build -t webtypst .
 ```
 
 ### And, Run
 
 ```bash
-docker run -d weblatex
+docker run -d webtypst
 ```
 
 ## LICENSE
-
-Copyright (c) 2023 Sanjib Kumar Sen
 
 This software is released under the MIT [License](https://opensource.org/licenses/MIT)
